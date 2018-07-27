@@ -5,7 +5,11 @@ import './App.css';
 
 
 export const Notification = (err) => {
-  return "Something went wrong."
+  return <div>"Something went wrong. - Please contact UQx/CDD learning tools team 
+    <a style={{
+      paddingLeft:"5px"
+    }} href="mailto:technical@uqx.uq.edu.au?Subject=CDD%20Catalogue%20Error" target="_top">technical@uqx.uq.edu.au</a>
+  </div>
 }
 
 class App extends Component {
@@ -13,7 +17,7 @@ class App extends Component {
     super(props)
 
     this.state = {
-      error:false
+      error:true
     }
   }
 
