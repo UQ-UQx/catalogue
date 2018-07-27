@@ -5,7 +5,7 @@ import './App.css';
 
 
 export const Notification = (err) => {
-  return "Something went wrong. - Please contact UQx/CDD learning tools team"
+  return "Something went wrong. - Please contact UQx/CDD learning tools team (technical@uqx.uq.edu.au)"
 }
 
 class App extends Component {
