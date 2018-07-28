@@ -12,7 +12,11 @@ export const Notification = () => (
       href="mailto:technical@uqx.uq.edu.au?Subject=CDD%20Catalogue%20Error"
       target="_top"
     >
+<<<<<<< HEAD
       technical@uqx.uq.edu.au more info
+=======
+    technical@uqx.uq.edu.au more info
+>>>>>>> f478193ecdce34fac4ccff158be9b16dcacf427b
     </a>
   </div>
 );
