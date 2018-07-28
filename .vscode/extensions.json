@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "dbaeumer.vscode-eslint",
+        "dzannotti.vscode-babel-coloring",
+        "eamodio.gitlens",
+        "HookyQR.beautify",
+        "humao.rest-client",
+        "lihui.vs-color-picker",
+        "mohsen1.prettify-json",
+        "msjsdiag.debugger-for-chrome",
+        "robertohuertasm.vscode-icons",
+        "spywhere.guides",
+        "xabikos.ReactSnippets"
+    ]
+}

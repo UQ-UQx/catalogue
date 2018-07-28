@@ -1,0 +1,14 @@
+{
+    "guides.enabled": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": 1,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+}
