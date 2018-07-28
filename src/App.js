@@ -15,7 +15,6 @@ export const Notification = () => (
     >
     technical@uqx.uq.edu.au more info
 
-    
     </a>
   </div>
 );
