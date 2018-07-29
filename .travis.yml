@@ -8,3 +8,7 @@ script:
   - yarn test
   - yarn lint
 
+# Customize when the notification emails are sent.
+notifications:
+  on_success: never
+  on_failure: always
