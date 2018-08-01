@@ -46,7 +46,7 @@ class App extends Component {
           This should now be available through webhook
         </p>
         {error ? <Notification /> : ''}
-        {sai ? '<SaiComponent />' : ''}
+        {sai ? <SaiComponent /> : ''}
       </div>
     );
   }
