@@ -17,17 +17,21 @@ export const Notification = () => (
   </div>
 );
 
+export const SaiComponent = () => <div>Hi this is sai</div>;
+
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       error: false,
+      sai: true,
     };
   }
 
   render() {
-    const { error } = this.state;
+    const { error, sai } = this.state;
+
     return (
       <div className="App">
         <header className="App-header">
@@ -42,6 +46,7 @@ class App extends Component {
           This should now be available through webhook
         </p>
         {error ? <Notification /> : ''}
+        {sai ? <SaiComponent /> : ''}
       </div>
     );
   }
